@@ -15,22 +15,22 @@ cask "promptkit" do
   on_macos do
     on_intel do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "6145a23b982045e09dcd903c4267719a934ea472e2bf1b1a75000c90ae778b7a"
+      sha256 "6e4067da986fc25b3ab89576e1b1d7590e78e193c0b937c7fdae0d563760ca25"
     end
     on_arm do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Darwin_arm64.tar.gz"
-      sha256 "61c84dc5227046e2acaa675cc7d55814e90210bbbb1feada652ab58f7ca19c6d"
+      sha256 "801ae64a7bfef33e558eb545d69c638783d140dad556c1bd61f164d0142abc0e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Linux_x86_64.tar.gz"
-      sha256 "227254e1769fbdbbf13e49c2fa269b83fab4d397fe229a8a36e522eef0a65f59"
+      sha256 "177fb4a49d7f34f085f14e2406039843cb416724fd7d012057fc30a49345c920"
     end
     on_arm do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Linux_arm64.tar.gz"
-      sha256 "d7be7a443ab27734eede78772b01f01d4a1eb9ceb29257c58fe6a70d2a59ab96"
+      sha256 "edf09b5c0445f91aeb65c7c875d0fcbdc3be0a0e075408b885dce0458736e5c4"
     end
   end
 
