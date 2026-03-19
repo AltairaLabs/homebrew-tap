@@ -3,7 +3,7 @@ cask "promptkit" do
   name "promptkit"
   desc "Prompt testing and evaluation toolkit for AI applications"
   homepage "https://github.com/AltairaLabs/PromptKit"
-  version "1.3.17"
+  version "1.3.18"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "promptkit" do
   on_macos do
     on_intel do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "5746ae987b5e9c86cd6620b525a1ebedc09860c969e959da0db0c55a555de956"
+      sha256 "d18af5d326d569c29c216dec7dbf74bc1b23dc8a9617ac66cf7cd31d3bac94be"
     end
     on_arm do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Darwin_arm64.tar.gz"
-      sha256 "84b8a3b3b55d338a6e9cf1ed469b0438d716b09c968ddd9471b4689766d6c25b"
+      sha256 "6b74b773889d6c70810d84362903cb315408f04d74b29a19e09be0802da660e6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Linux_x86_64.tar.gz"
-      sha256 "54f179e2e0f0d4d67337d81f264eb2e5b67e0cde1109c9a2e7427d66a8384ceb"
+      sha256 "0781ee414185ae2c9306e1d2e6273ff71e70f17f7c4f15deca50d4e3ac1ce083"
     end
     on_arm do
       url "https://github.com/AltairaLabs/PromptKit/releases/download/v#{version}/PromptKit_#{version}_Linux_arm64.tar.gz"
-      sha256 "50c06d7a35c7fec0330c654f7550e4bfe8e75aa4fc2be35747babcf7b0d0d54d"
+      sha256 "f69365b990c3f5db5347ecae946403a7e8a600a64a61b209a88d36f0eaee7330"
     end
   end
 
