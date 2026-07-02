@@ -4,28 +4,28 @@ cask "promptarena" do
 
   on_macos do
     on_intel do
-      sha256 "70fad988543eed8e4df64450a033bbddeb3df46275cda5a9f873aad9a4b55600"
+      sha256 "bc7fa0223c711ae2f2cbac901938d31529f17f44a0653b07fdc5267ee8447a6f"
       url "https://github.com/AltairaLabs/promptarena/releases/download/v#{version}/promptarena_#{version}_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "c740def9085514a8bf2db59510fc9854d0e053665ca4c0ee91dff94e3dbbeed3"
+      sha256 "41332f795ef71e5c3b561be5b2d35f77a448e28d394372b1247b27756ef6abfa"
       url "https://github.com/AltairaLabs/promptarena/releases/download/v#{version}/promptarena_#{version}_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "b0835ed8db0f57038ecefe9b6b4c7a1ce21ce9604254ee13dfcb0125cdf5d09e"
+      sha256 "4b389b6a7a37a855ea761e309441bc20c50c95d1a0a8e1311effcfaa7a8cb5ae"
       url "https://github.com/AltairaLabs/promptarena/releases/download/v#{version}/promptarena_#{version}_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "4a98a4d2b8b05dd771ad4f29e54ac4e833822ffba250764d4a224f54b0c73d71"
+      sha256 "f1065d093ac2334066db07eeb9b3a399d14a539772a82919df402c0cf1f8ecfb"
       url "https://github.com/AltairaLabs/promptarena/releases/download/v#{version}/promptarena_#{version}_Linux_arm64.tar.gz"
     end
   end
 
   name "promptarena"
-  desc "Prompt testing and evaluation toolkit for AI applications"
+  desc "PromptArena — prompt testing and evaluation CLI"
   homepage "https://github.com/AltairaLabs/promptarena"
 
   livecheck do
@@ -33,7 +33,6 @@ cask "promptarena" do
   end
 
   binary "promptarena"
-  binary "packc"
 
   # No zap stanza required
 
